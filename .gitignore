@@ -1,0 +1,27 @@
+# Build folders
+x64/
+Debug/
+Release/
+
+# Visual Studio temporary files
+.vs/
+*.user
+*.suo
+
+# Compiled object files
+*.obj
+*.o
+
+# Executables
+*.exe
+*.dll
+
+# PDB files
+*.pdb
+
+# CUDA intermediate files
+*.cubin
+*.ptx
+
+# Others
+*.log

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36121.58 d17.14
+VisualStudioVersion = 17.14.36121.58
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FluidSim", "FluidSim\FluidSim.vcxproj", "{664CF1B0-965B-E059-BB9A-D7E14A2ED91A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FluidSimTest", "FluidSimTest\FluidSimTest.vcxproj", "{0A295B6A-CCD9-E746-C78E-ED0324E5C635}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{664CF1B0-965B-E059-BB9A-D7E14A2ED91A}.Debug|x64.Build.0 = Debug|x64
 		{664CF1B0-965B-E059-BB9A-D7E14A2ED91A}.Release|x64.ActiveCfg = Release|x64
 		{664CF1B0-965B-E059-BB9A-D7E14A2ED91A}.Release|x64.Build.0 = Release|x64
+		{0A295B6A-CCD9-E746-C78E-ED0324E5C635}.Debug|x64.ActiveCfg = Debug|x64
+		{0A295B6A-CCD9-E746-C78E-ED0324E5C635}.Debug|x64.Build.0 = Debug|x64
+		{0A295B6A-CCD9-E746-C78E-ED0324E5C635}.Release|x64.ActiveCfg = Release|x64
+		{0A295B6A-CCD9-E746-C78E-ED0324E5C635}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
