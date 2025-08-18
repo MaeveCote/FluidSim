@@ -77,7 +77,7 @@ void renderTexture() {
     glDisable(GL_TEXTURE_2D);
 }
 
-int main() {
+int main_2() {
     if (!glfwInit()) {
         std::cerr << "Failed to initialize GLFW\n";
         return -1;

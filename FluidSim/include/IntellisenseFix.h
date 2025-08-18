@@ -21,3 +21,11 @@ static constexpr dim3 blockDim{0,0,0};
 static constexpr dim3 gridDim{0,0,0};
 
 #endif
+
+// Some useful defines
+#define CUDA_CHECK(err) \
+  if (err != cudaSuccess) \
+  { \
+    cerr << "CUDA error: " << cudaGetErrorString(err) << endl; \
+    exit(EXIT_FAILURE); \
+  }

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="cuda\kernel.cu" />
+    <CudaCompile Include="src\VectorAdditionKernel.cu">
+      <Filter>CudaExercises</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\VectorAddition.cpp">
+      <Filter>CudaExercises</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\IntellisenseFix.h" />
+    <ClInclude Include="include\exercises\VectorAdditionKernel.cuh">
+      <Filter>CudaExercises</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CudaExercises">
+      <UniqueIdentifier>{52f50e77-32a8-4c93-aa1e-fd40096991fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
